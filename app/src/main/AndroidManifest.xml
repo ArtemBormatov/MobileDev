@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment22">
         <activity
+            android:configChanges="keyboard|screenSize"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
