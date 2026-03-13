@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/display"
+            android:textSize="28sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:columnCount="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button android:text="1"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="2"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="3"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="+"
+                android:backgroundTint="#f73b00"/>
+
+            <Button android:text="4"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="5"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="6"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="-"
+                android:backgroundTint="#f73b00"/>
+
+            <Button android:text="7"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="8"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="9"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="*"
+                android:backgroundTint="#f73b00"/>
+
+            <Button
+                android:text="CE"
+                android:backgroundTint="@color/buttons_color" />
+            <Button android:text="0"
+                android:backgroundTint="#706e6e"/>
+            <Button android:text="="
+                android:backgroundTint="#f73b00"/>
+            <Button android:text="/"
+                android:backgroundTint="#f73b00"/>
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
